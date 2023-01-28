@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier -w ."
+    "prettier": "prettier --use-tabs --tab-width=2 --single-attribute-per-line --trailing-comma=es5 -w ."
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -30,6 +30,7 @@
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.1",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.4"
   }
 }
